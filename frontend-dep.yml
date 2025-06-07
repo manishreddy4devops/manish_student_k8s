@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-frontend
-          image: docker pull manishreddy4devops/student_frontend:latest  # Replace with your image
+          image: manishreddy4devops/student_frontend:latest  # Replace with your image
           ports:
             - containerPort: 80
 
